@@ -29,9 +29,9 @@ $(document).ready(function() {
         { data: 'ORDEM', title:'Ordem' },
         { data: 'PNS', title:'PNS'  },
         { data: 'NOTA', title:'Nota'  },
-        { data: 'ESPECIALIDADE', title:'Especialidade'  },
-        { data: 'INSTITUIÇÃO', title:'Instituição'  },
-        { data: 'ARS', title:'ARS'  }
+        { data: 'ESPECIALIDADE', title:'Especialidade',className: 'mdl-data-table__cell--non-numeric'  },
+        { data: 'INSTITUIÇÃO', title:'Instituição',className: 'mdl-data-table__cell--non-numeric'  },
+        { data: 'ARS', title:'ARS',className: 'mdl-data-table__cell--non-numeric'  }
     ]
 } );
     });
