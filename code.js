@@ -71,7 +71,7 @@ $(document).ready(function() {
         keys.sort();
         for (i = 0; i < len; i++) {
            var speciality=keys[i];
-           var list=resultsMap[k]
+           var list=resultsMap[speciality]
         //}
         //for (x in resultsMap) {
         //    var speciality=x;
