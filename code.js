@@ -49,7 +49,7 @@ $(document).ready(function() {
         
         for (x in resultsMap) {
             var speciality=x;
-            var list=person[x];
+            var list=resultsMap[x];
             var numberOfC=list.length;
             
             $('.results').append("<div>"+speciality+"("+numberOfC+")</div>");
