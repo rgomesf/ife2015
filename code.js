@@ -16,6 +16,17 @@ function loadJSON(file,callback) {
 $(document).ready(function() {
     loadJSON('2015.json',function(response) {
     var actual_JSON = JSON.parse(response);
-    console.log(actual_JSON);
+    
+    $('.list').DataTable( {
+    data: actual_JSON,
+    columns: [
+        { data: 'ORDEM' },
+        { data: 'PNS' },
+        { data: 'NOTA' },
+        { data: 'ESPECIALIDADE' },
+        { data: 'INSTITUIÇÃO' },
+        { data: 'ARS' }
+    ]
+} );
     });
 });
