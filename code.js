@@ -93,7 +93,7 @@ $(document).ready(function() {
                 }
                 else
                 {
-                     snip2=snip2+'<li class="collection-item"><b>'+list[j].ESPECIALIDADE+" <b>"+list[j].ORDEM+"</b> ("+list[j].PNS+")"+'</li>';
+                     snip2=snip2+'<li class="collection-item">'+list[j].ESPECIALIDADE+" <b>"+list[j].ORDEM+"</b> ("+list[j].PNS+")"+'</li>';
                 }
                
             }
