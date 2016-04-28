@@ -30,6 +30,7 @@ $(document).ready(function() {
             }
         }
         
+        var n = noty({text: 'noty - a jquery notification library!'});
         console.log(resultset);
         
         
