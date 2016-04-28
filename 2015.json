@@ -2453,7 +2453,7 @@
 	"PNS": "80%",
 	"NOTA": 14.681,
 	"ESPECIALIDADE": "Ortopedia",
-	"INSTITUIÇÃO": "Centro Hospitalar Trás-os-Montes e Alto Douro, E. P. E.",
+	"INSTITUIÇÃO": "Centro Hospitalar Trás-os-Montes e Alto Douro, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 352,
@@ -2551,7 +2551,7 @@
 	"PNS": "79%",
 	"NOTA": 16.803,
 	"ESPECIALIDADE": "Ginecologia/obstetrícia",
-	"INSTITUIÇÃO": "Hospital Distrital de Santarem, E. P. E.",
+	"INSTITUIÇÃO": "Hospital Distrital de Santarem, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 366,
@@ -3034,7 +3034,7 @@
 	"PNS": "77%",
 	"NOTA": 17.27,
 	"ESPECIALIDADE": "Psiquiatria",
-	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, E. P. E.",
+	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 435,
@@ -3216,7 +3216,7 @@
 	"PNS": "77%",
 	"NOTA": 15,
 	"ESPECIALIDADE": "Oncologia médica",
-	"INSTITUIÇÃO": "Instituto Português de Oncologia de Porto Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia do Porto Francisco Gentil, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 461,
@@ -3342,7 +3342,7 @@
 	"PNS": "76%",
 	"NOTA": 16.464,
 	"ESPECIALIDADE": "Cirurgia geral",
-	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, E. P. E.",
+	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 479,
@@ -3370,7 +3370,7 @@
 	"PNS": "76%",
 	"NOTA": 16.324,
 	"ESPECIALIDADE": "Pneumologia",
-	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, E. P. E.",
+	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 483,
@@ -3440,7 +3440,7 @@
 	"PNS": "76%",
 	"NOTA": 15.614,
 	"ESPECIALIDADE": "Pneumologia",
-	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, E. P. E.",
+	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 493,
@@ -3524,7 +3524,7 @@
 	"PNS": "76%",
 	"NOTA": 14.439,
 	"ESPECIALIDADE": "Reumatologia",
-	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, E. P. E.",
+	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 505,
@@ -3650,7 +3650,7 @@
 	"PNS": "75%",
 	"NOTA": 16.153,
 	"ESPECIALIDADE": "Oncologia médica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 523,
@@ -3685,7 +3685,7 @@
 	"PNS": "75%",
 	"NOTA": 15.4,
 	"ESPECIALIDADE": "Oncologia médica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 528,
@@ -3860,7 +3860,7 @@
 	"PNS": "74%",
 	"NOTA": 16.665,
 	"ESPECIALIDADE": "Oncologia médica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 553,
@@ -3916,7 +3916,7 @@
 	"PNS": "74%",
 	"NOTA": 16.359,
 	"ESPECIALIDADE": "Oncologia médica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 561,
@@ -5533,7 +5533,7 @@
 	"PNS": "68%",
 	"NOTA": 15.633,
 	"ESPECIALIDADE": "Hematologia clínica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia do Porto Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia do Porto Francisco Gentil, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 792,
@@ -5834,7 +5834,7 @@
 	"PNS": "67%",
 	"NOTA": 15.213,
 	"ESPECIALIDADE": "Pediatria médica",
-	"INSTITUIÇÃO": "Centro Hospitalar de Entre Douro e Vouga, EPE",
+	"INSTITUIÇÃO": "Centro Hospitalar de Entre-Douro e Vouga, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 835,
@@ -5995,7 +5995,7 @@
 	"PNS": "66%",
 	"NOTA": 16.762,
 	"ESPECIALIDADE": "Radioncologia",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 858,
@@ -6156,7 +6156,7 @@
 	"PNS": "66%",
 	"NOTA": 15.268,
 	"ESPECIALIDADE": "Medicina nuclear",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 881,
@@ -6373,7 +6373,7 @@
 	"PNS": "65%",
 	"NOTA": 15.241,
 	"ESPECIALIDADE": "Patologia clínica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia do Porto Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia do Porto Francisco Gentil, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 912,
@@ -6555,7 +6555,7 @@
 	"PNS": "64%",
 	"NOTA": 16.296,
 	"ESPECIALIDADE": "Anatomia patológica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Lisboa Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 938,
@@ -6618,7 +6618,7 @@
 	"PNS": "64%",
 	"NOTA": 15.775,
 	"ESPECIALIDADE": "Anatomia patológica",
-	"INSTITUIÇÃO": "Instituto Português Oncologia do Porto Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia do Porto Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 947,
@@ -6877,7 +6877,7 @@
 	"PNS": "63%",
 	"NOTA": 15.608,
 	"ESPECIALIDADE": "Radioncologia",
-	"INSTITUIÇÃO": "Instituto Português Oncologia de Coimbra Francisco Gentil, EPE",
+	"INSTITUIÇÃO": "Instituto Português de Oncologia de Coimbra Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
 	"ORDEM": 984,
@@ -7416,7 +7416,7 @@
 	"PNS": "61%",
 	"NOTA": 14.424,
 	"ESPECIALIDADE": "Medicina geral e familiar",
-	"INSTITUIÇÃO": "Usf condeixa",
+	"INSTITUIÇÃO": "USF condeixa",
 	"ARS": "Coimbra - (ARS Centro)"
 }, {
 	"ORDEM": 1061,
@@ -8144,7 +8144,7 @@
 	"PNS": "58%",
 	"NOTA": 14.336,
 	"ESPECIALIDADE": "Medicina interna",
-	"INSTITUIÇÃO": "Unidade de Saúde Local do Alto Minho, EPE",
+	"INSTITUIÇÃO": "Unidade Local de Saúde do Alto Minho, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1165,
@@ -8424,7 +8424,7 @@
 	"PNS": "57%",
 	"NOTA": 14.272,
 	"ESPECIALIDADE": "Saúde pública",
-	"INSTITUIÇÃO": "Unidade de Saúde Local do Nordeste, EPE",
+	"INSTITUIÇÃO": "Unidade Local de Saúde do Nordeste, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1205,
@@ -10941,7 +10941,7 @@
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1564,
-	"PNS": "41%",
+EPE	"PNS": "41%",
 	"NOTA": 15.894,
 	"ESPECIALIDADE": "",
 	"INSTITUIÇÃO": "FALTOU",
