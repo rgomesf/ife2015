@@ -62,13 +62,20 @@ $(document).ready(function() {
                 }
                 resultset.push(candidate);
             }
+            
+            
+            
         }
         
-        
-        
-        for (x in resultsMap) {
-            var speciality=x;
-            var list=resultsMap[x];
+        var keys = Object.keys(resultsMap),i, len = keys.length;
+        keys.sort();
+        for (i = 0; i < len; i++) {
+           var speciality=keys[i];
+           var list=resultsMap[k]
+        //}
+        //for (x in resultsMap) {
+        //    var speciality=x;
+        //    var list=resultsMap[x];
             var numberOfC=list.length;
             
             var snip1='<li><div class="collapsible-header"><i class="material-icons">'+icon+'</i>'+speciality+'<span class="badge">'+numberOfC+'</span></div>'+
