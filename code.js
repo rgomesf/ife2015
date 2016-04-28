@@ -23,7 +23,7 @@ $(document).ready(function() {
         
         if (!(numberSelected>0))
         {
-            noty({type: 'error',timeout: true,layout: 'top',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
+            noty({type: 'error',timeout: 3000,layout: 'top',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
         }
         else
         {
@@ -59,7 +59,7 @@ $(document).ready(function() {
         
         
         
-        var n = noty({type: 'success',timeout: true,layout: 'top',text: 'Resultados gerados com sucesso'});
+        var n = noty({type: 'success',timeout: 3000,layout: 'top',text: 'Resultados gerados com sucesso'});
         console.log(resultset); 
         }
         
