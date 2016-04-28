@@ -71,9 +71,26 @@ $(document).ready(function() {
             var list=resultsMap[x];
             var numberOfC=list.length;
             
-            var snip='<li><div class="collapsible-header"><i class="material-icons">'+icon+'</i>'+speciality+'<span class="badge">'+numberOfC+'</span></div>'+
-            '<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div></li>'
-            $('.results').append(snip);
+            var snip1='<li><div class="collapsible-header"><i class="material-icons">'+icon+'</i>'+speciality+'<span class="badge">'+numberOfC+'</span></div>'+
+            '<div class="collapsible-body"><ul class="collection">';
+            
+            var snip3='</ul></div></li>';
+            
+            var snip2='';
+            
+            for (j = 0; j < numberOfC; j++) {
+                
+                if (useSpeciality)
+                {
+                     snip2=snip2+'<li class="collection-item">'+list[j].INSTITUIÇÃO+" - "+list[j].PNS+" - "+list[j].ORDEM+'</li>';
+                }
+                else
+                {
+                     snip2=snip2+'<li class="collection-item">'+list[j].ESPECIALIDADE+" - "+list[j].PNS+" - "+list[j].ORDEM+'</li>';
+                }
+               
+            }
+            $('.results').append(snip1+snip2+snip3);
     }
         
         
