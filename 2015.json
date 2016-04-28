@@ -1423,7 +1423,7 @@
 	"ORDEM": 204,
 	"PNS": "84%",
 	"NOTA": 17.233,
-	"ESPECIALIDADE": "Cirurgia geral ",
+	"ESPECIALIDADE": "Cirurgia geral",
 	"INSTITUIÇÃO": "Hospital Beatriz Ângelo",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -6351,7 +6351,7 @@
 	"ORDEM": 908,
 	"PNS": "65%",
 	"NOTA": 15.403,
-	"ESPECIALIDADE": "Psiquiatria da infância e da adolescência ",
+	"ESPECIALIDADE": "Psiquiatria da infância e da adolescência",
 	"INSTITUIÇÃO": "Centro Hospitalar de Tondela - Viseu, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -7205,7 +7205,7 @@
 	"ORDEM": 1030,
 	"PNS": "62%",
 	"NOTA": 14.367,
-	"ESPECIALIDADE": "Pediatria médica ",
+	"ESPECIALIDADE": "Pediatria médica",
 	"INSTITUIÇÃO": "Centro Hospitalar de Trás-os-Montes e Alto Douro, EPE",
 	"ARS": "Funchal - (Madeira)"
 }, {
@@ -8899,7 +8899,7 @@
 	"ORDEM": 1272,
 	"PNS": "54%",
 	"NOTA": 15.644,
-	"ESPECIALIDADE": "Medicina interna ",
+	"ESPECIALIDADE": "Medicina interna",
 	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Norte, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -9032,7 +9032,7 @@
 	"ORDEM": 1291,
 	"PNS": "54%",
 	"NOTA": 13.628,
-	"ESPECIALIDADE": "Estomatologia ",
+	"ESPECIALIDADE": "Estomatologia",
 	"INSTITUIÇÃO": "Centro Hospitalar de São João, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -10173,14 +10173,14 @@
 	"ORDEM": 1454,
 	"PNS": "48%",
 	"NOTA": 13.685,
-	"ESPECIALIDADE": "Medicina Interna",
+	"ESPECIALIDADE": "Medicina interna",
 	"INSTITUIÇÃO": "Unidade Local de Saúde da Guarda, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1455,
 	"PNS": "48%",
 	"NOTA": 13.209,
-	"ESPECIALIDADE": "Patologia Clínica",
+	"ESPECIALIDADE": "Patologia clínica",
 	"INSTITUIÇÃO": "Centro Hospitalar do Porto, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -10201,7 +10201,7 @@
 	"ORDEM": 1458,
 	"PNS": "47%",
 	"NOTA": 15.981,
-	"ESPECIALIDADE": "Medicina Interna",
+	"ESPECIALIDADE": "Medicina interna",
 	"INSTITUIÇÃO": "Centro Hospitalar da Cova da Beira, EPE",
 	"ARS": "Coimbra - (ARS Centro)"
 }, {
