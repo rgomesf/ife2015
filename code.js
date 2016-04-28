@@ -17,7 +17,7 @@ $(document).ready(function() {
     loadJSON('2015.json',function(response) {
     var actual_JSON = JSON.parse(response);
     
-    $.('.generate').on("click",function()
+    $('.generate').on("click",function()
     {
         var numberSelected=Number($.('.order').val());
         var resultset=[];
