@@ -408,7 +408,7 @@
 	"ORDEM": 59,
 	"PNS": "90%",
 	"NOTA": 18.083,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -695,7 +695,7 @@
 	"ORDEM": 100,
 	"PNS": "88%",
 	"NOTA": 16.694,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Hospital Prof. Doutor Fernando Fonseca, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -877,7 +877,7 @@
 	"ORDEM": 126,
 	"PNS": "87%",
 	"NOTA": 17.248,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Hospital Prof. Doutor Fernando Fonseca, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -1017,7 +1017,7 @@
 	"ORDEM": 146,
 	"PNS": "86%",
 	"NOTA": 17.229,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Centro Hospitalar do Porto, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -1031,7 +1031,7 @@
 	"ORDEM": 148,
 	"PNS": "86%",
 	"NOTA": 17.024,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Ocidental, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -1059,7 +1059,7 @@
 	"ORDEM": 152,
 	"PNS": "86%",
 	"NOTA": 16.645,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Norte, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -1325,7 +1325,7 @@
 	"ORDEM": 190,
 	"PNS": "85%",
 	"NOTA": 15.274,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Centro Hospitalar do Porto, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -1346,7 +1346,7 @@
 	"ORDEM": 193,
 	"PNS": "85%",
 	"NOTA": 15.183,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Hospital de Braga",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -2060,7 +2060,7 @@
 	"ORDEM": 295,
 	"PNS": "81%",
 	"NOTA": 16.761,
-	"ESPECIALIDADE": "Anestesiologia ",
+	"ESPECIALIDADE": "Anestesiologia",
 	"INSTITUIÇÃO": "Centro Hospitalar de Lisboa Norte, EPE",
 	"ARS": "Lisboa - (ARS LVT)"
 }, {
@@ -2544,7 +2544,7 @@
 	"PNS": "79%",
 	"NOTA": 16.899,
 	"ESPECIALIDADE": "Medicina geral e familiar",
-	"INSTITUIÇÃO": "USF Freamunde ",
+	"INSTITUIÇÃO": "USF Freamunde",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 365,
@@ -2613,7 +2613,7 @@
 	"ORDEM": 374,
 	"PNS": "79%",
 	"NOTA": 16.299,
-	"ESPECIALIDADE": "Nefrologia ",
+	"ESPECIALIDADE": "Nefrologia",
 	"INSTITUIÇÃO": "Unidade Local de Saúde de Castelo Branco, EPE",
 	"ARS": "Coimbra - (ARS Centro)"
 }, {
@@ -4440,7 +4440,7 @@
 	"ORDEM": 635,
 	"PNS": "72%",
 	"NOTA": 15.843,
-	"ESPECIALIDADE": "Cirurgia geral ",
+	"ESPECIALIDADE": "Cirurgia geral",
 	"INSTITUIÇÃO": "Centro Hospitalar do Porto, EPE",
 	"ARS": "Porto - (ARS Norte)"
 }, {
@@ -6989,7 +6989,7 @@
 	"PNS": "63%",
 	"NOTA": 14.611,
 	"ESPECIALIDADE": "Saúde pública",
-	"INSTITUIÇÃO": "Grande Porto V - Porto Ocidental ",
+	"INSTITUIÇÃO": "Grande Porto V - Porto Ocidental",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1000,
@@ -7248,7 +7248,7 @@
 	"PNS": "62%",
 	"NOTA": 14.047,
 	"ESPECIALIDADE": "Medicina geral e familiar",
-	"INSTITUIÇÃO": "USF Ancora ",
+	"INSTITUIÇÃO": "USF Ancora",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1037,
@@ -8676,7 +8676,7 @@
 	"PNS": "55%",
 	"NOTA": 16.292,
 	"ESPECIALIDADE": "Medicina geral e familiar",
-	"INSTITUIÇÃO": "USF Santa Luzia ",
+	"INSTITUIÇÃO": "USF Santa Luzia",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1241,
@@ -9026,7 +9026,7 @@
 	"PNS": "54%",
 	"NOTA": 13.838,
 	"ESPECIALIDADE": "Medicina geral e familiar",
-	"INSTITUIÇÃO": "UCSP Lagos ",
+	"INSTITUIÇÃO": "UCSP Lagos",
 	"ARS": "Coimbra - (ARS Centro)"
 }, {
 	"ORDEM": 1291,
@@ -9656,7 +9656,7 @@
 	"PNS": "51%",
 	"NOTA": 13.268,
 	"ESPECIALIDADE": "Saúde pública",
-	"INSTITUIÇÃO": "ACES Grande Porto I I - Gondomar ",
+	"INSTITUIÇÃO": "ACES Grande Porto I I - Gondomar",
 	"ARS": "Porto - (ARS Norte)"
 }, {
 	"ORDEM": 1381,
