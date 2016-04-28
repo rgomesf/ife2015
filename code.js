@@ -17,6 +17,26 @@ $(document).ready(function() {
     loadJSON('2015.json',function(response) {
     var actual_JSON = JSON.parse(response);
     
+    $.('.generate').on("click",function()
+    {
+        var numberSelected=Number($.('.order').val());
+        var resultset=[];
+       for (i = 0; i < actual_JSON.length; i++) {
+            var candidate=actual_JSON[i];
+            
+            if (candidate.ORDEM>=numberSelected)
+            {
+                resultset.push(candidate);
+            }
+        }
+        
+        console.log(resultset);
+        
+        
+    });
+    
+    
+    /*
     $('.list').DataTable( {
     data: actual_JSON,
     columnDefs: [
@@ -37,6 +57,6 @@ $(document).ready(function() {
         { data: 'INSTITUIÇÃO', title:'Instituição' },
         { data: 'ARS', title:'ARS'}
     ]
-} );
+} );*/
     });
 });
