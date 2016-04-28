@@ -31,18 +31,33 @@ $(document).ready(function() {
            var resultset=[];
            
         var resultsMap={};
+        var useSpeciality=true;
+        if ($('#institution').is(':checked')) {
+            useSpeciality=false;
+                }
            
            
        for (i = 0; i < actual_JSON.length; i++) {
             var candidate=actual_JSON[i];
             
-            if (candidate.ORDEM>=numberSelected)
+            if (candidate.ORDEM>=numberSelected && candidate.ESPECIALIDADE!="")
             {
-                if (!resultsMap[candidate.ESPECIALIDADE])
+                if (useSpeciality)
                 {
-                    resultsMap[candidate.ESPECIALIDADE]=[];
+                    if (!resultsMap[candidate.ESPECIALIDADE])
+                    {
+                        resultsMap[candidate.ESPECIALIDADE]=[];
+                    }
+                    resultsMap[candidate.ESPECIALIDADE].push(candidate);  
                 }
-                resultsMap[candidate.ESPECIALIDADE].push(candidate);
+                else
+                {
+                    if (!resultsMap[candidate['INSTITUIÇÃO']])
+                    {
+                        resultsMap[candidate['INSTITUIÇÃO']]=[];
+                    }
+                    resultsMap[candidate['INSTITUIÇÃO']].push(candidate);  
+                }
                 resultset.push(candidate);
             }
         }
