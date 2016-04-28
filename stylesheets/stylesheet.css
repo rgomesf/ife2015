@@ -7,8 +7,8 @@ body {
 #toast-container {
   top: auto;
   right: auto;
-  bottom: 10%;
-  left:7%;
+  bottom: 5%;
+  right:5%;
 }
 
 span.badge
