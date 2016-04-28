@@ -8,15 +8,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.11/css/dataTables.material.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.8/packaged/jquery.noty.packaged.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.8/themes/default.min.js"></script>
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <script src="code.js"></script>
   </head>
   <body>
@@ -24,8 +20,19 @@
       <h1 class="project-name">IFE 2015</h1>
     </section>
     <section class="main-content">
-      <input type="search" style="height: 31px;width: 50%;" class="order" placeholder="Número de Ordem">
-      <a class="waves-effect waves-light btn generate"> Resultados</a>
+      <div class="input-field col s6">
+          <input placeholder="Número de Ordem" id="order" type="text" class="order">
+          <label for="order">Número de Ordem</label>
+        </div>
+        <p>
+      <input name="group1" type="radio" id="test1" />
+      <label for="test1">Especialidade</label>
+    </p>
+    <p>
+      <input name="group2" type="radio" id="test2" />
+      <label for="test2">Instituição</label>
+    </p>
+      <a class="waves-effect waves-light btn generate">Gerar Resultados</a>
       <div class="results"></div>
       
       <table id="list" class="list display" width="100%"></table>
