@@ -23,7 +23,7 @@ $(document).ready(function() {
         
         if (!(numberSelected>0))
         {
-            noty({type: 'error',timeout: 3000,layout: 'top',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
+            Materialize.toast('O número introduzido não é inválido.', 4000)
         }
         else
         {
@@ -52,7 +52,7 @@ $(document).ready(function() {
             var list=resultsMap[x];
             var numberOfC=list.length;
             
-            var snip='<li><div class="collapsible-header"><i class="material-icons">filter_drama</i>'+speciality+"("+numberOfC+'</div>'+
+            var snip='<li><div class="collapsible-header"><i class="material-icons">filter_drama</i>'+speciality+'<span class="badge">'+numberOfC+'</span></div>'+
             '<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div></li>'
             $('.results').append(snip);
     }
@@ -62,14 +62,9 @@ $(document).ready(function() {
         $('.results').collapsible({
             accordion : false
         });
-        
-        var n = noty({type: 'success',timeout: 3000,layout: 'top',text: 'Resultados gerados com sucesso'});
-        console.log(resultset); 
+        Materialize.toast('Resultados gerados com sucesso!', 4000)
         }
-        
-        
-        
-        
+
     });
     
     
