@@ -32,9 +32,11 @@ $(document).ready(function() {
            
         var resultsMap={};
         var useSpeciality=true;
+        var icon="location_city";
         if ($('#institution').is(':checked')) {
             useSpeciality=false;
-                }
+            icon="airline_seat_recline_normal";
+        }
            
            
        for (i = 0; i < actual_JSON.length; i++) {
@@ -62,12 +64,14 @@ $(document).ready(function() {
             }
         }
         
+        
+        
         for (x in resultsMap) {
             var speciality=x;
             var list=resultsMap[x];
             var numberOfC=list.length;
             
-            var snip='<li><div class="collapsible-header"><i class="material-icons">filter_drama</i>'+speciality+'<span class="badge">'+numberOfC+'</span></div>'+
+            var snip='<li><div class="collapsible-header"><i class="material-icons">'+icon+'</i>'+speciality+'<span class="badge">'+numberOfC+'</span></div>'+
             '<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div></li>'
             $('.results').append(snip);
     }
