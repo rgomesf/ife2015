@@ -23,21 +23,43 @@ $(document).ready(function() {
         
         if (!(numberSelected>0))
         {
-            noty({type: 'error',layout: 'top',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
+            noty({type: 'error',timeout: true,layout: 'top',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
         }
         else
         {
+            $('.results').empty();
            var resultset=[];
+           
+        var resultsMap={};
+           
+           
        for (i = 0; i < actual_JSON.length; i++) {
             var candidate=actual_JSON[i];
             
             if (candidate.ORDEM>=numberSelected)
             {
+                if (!resultsMap[candidate.ESPECIALIDADE])
+                {
+                    resultsMap[candidate.ESPECIALIDADE]=[];
+                }
+                resultsMap[candidate.ESPECIALIDADE].push(candidate);
                 resultset.push(candidate);
             }
         }
         
-        var n = noty({type: 'sucess',layout: 'top',text: 'Resultados gerados com sucesso'});
+        for (x in resultsMap) {
+            var speciality=x;
+            var list=person[x];
+            var numberOfC=list.length;
+            
+            $('.results').append("<div>"+speciality+"("+numberOfC+")</div>");
+    }
+        
+        
+        
+        
+        
+        var n = noty({type: 'success',timeout: true,layout: 'top',text: 'Resultados gerados com sucesso'});
         console.log(resultset); 
         }
         
