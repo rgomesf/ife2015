@@ -20,12 +20,12 @@ $(document).ready(function() {
     $('.list').DataTable( {
     data: actual_JSON,
     columns: [
-        { data: 'ORDEM' },
-        { data: 'PNS' },
-        { data: 'NOTA' },
-        { data: 'ESPECIALIDADE' },
-        { data: 'INSTITUIÇÃO' },
-        { data: 'ARS' }
+        { data: 'ORDEM', title:'Ordem' },
+        { data: 'PNS', title:'PNS'  },
+        { data: 'NOTA', title:'Nota'  },
+        { data: 'ESPECIALIDADE', title:'Especialidade'  },
+        { data: 'INSTITUIÇÃO', title:'Instituição'  },
+        { data: 'ARS', title:'ARS'  }
     ]
 } );
     });
