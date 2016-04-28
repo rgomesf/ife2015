@@ -52,12 +52,16 @@ $(document).ready(function() {
             var list=resultsMap[x];
             var numberOfC=list.length;
             
-            $('.results').append("<div>"+speciality+"("+numberOfC+")</div>");
+            var snip='<li><div class="collapsible-header"><i class="material-icons">filter_drama</i>'+speciality+"("+numberOfC+'</div>'+
+            '<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div></li>'
+            $('.results').append(snip);
     }
         
         
         
-        
+        $('.results').collapsible({
+            accordion : false
+        });
         
         var n = noty({type: 'success',timeout: 3000,layout: 'top',text: 'Resultados gerados com sucesso'});
         console.log(resultset); 
