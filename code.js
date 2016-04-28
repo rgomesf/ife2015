@@ -19,7 +19,13 @@ $(document).ready(function() {
     
     $('.generate').on("click",function()
     {
-        var numberSelected=Number($.('.order').val());
+        var numberSelected=Number($('.order').val());
+        
+        if (!(numberSelected>0))
+        {
+            noty({type: 'error',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
+        }
+        
         var resultset=[];
        for (i = 0; i < actual_JSON.length; i++) {
             var candidate=actual_JSON[i];
@@ -30,7 +36,7 @@ $(document).ready(function() {
             }
         }
         
-        var n = noty({text: 'noty - a jquery notification library!'});
+        var n = noty({type: 'alert',text: 'Resultados gerados com sucesso'});
         console.log(resultset);
         
         
