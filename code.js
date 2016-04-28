@@ -1,9 +1,9 @@
 
-function loadJSON(callback) {   
+function loadJSON(file,callback) {   
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', '2015.json', true); // Replace 'my_data' with the path to your file
+    xobj.open('GET', file, true); 
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -14,11 +14,8 @@ function loadJSON(callback) {
  }
 
 $(document).ready(function() {
-    
-    loadJSON(function(response) {
-  // Parse JSON string into object
+    loadJSON('2015.json',function(response) {
     var actual_JSON = JSON.parse(response);
- });
-    
     console.log(actual_JSON);
+    });
 });
