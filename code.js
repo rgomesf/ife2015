@@ -23,7 +23,8 @@ $(document).ready(function() {
             {
                 targets: [ 3,4,5],
                 className: 'mdl-data-table__cell--non-numeric'
-            }
+            },
+             { width: '20%', targets: 0 }
         ],
     columns: [
         { data: 'ORDEM', title:'Ordem' },
