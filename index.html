@@ -23,22 +23,25 @@
       <div class="row">
         <form class="col s12">
           <div class="row">
-            <div class="input-field col s6">
+            <div class="input-field col s4">
               <input id="order" type="text" class="order">
               <label for="order">Número de Ordem</label>
             </div>
             <div class="input-field col s3">
-              <input name="typeofsearch" type="radio" id="speciality" />
+              <input name="typeofsearch" type="radio" id="speciality" checked />
               <label for="speciality">Especialidade</label>
             </div>
             <div class="input-field col s3">
               <input name="typeofsearch" type="radio" id="institution" />
               <label for="institution">Instituição</label>
             </div>
+            <div class="input-field col s2">
+              <a class="waves-effect waves-light btn generate">Ver</a>
+            </div>
           </div>
         </form>
       </div>
-      <a class="waves-effect waves-light btn generate">Gerar Resultados</a>
+      
       <ul class="collapsible results" data-collapsible="accordion"></ul>
     </section>
   </body>
