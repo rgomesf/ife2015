@@ -19,6 +19,12 @@ $(document).ready(function() {
     
     $('.list').DataTable( {
     data: actual_JSON,
+    columnDefs: [
+            {
+                targets: [ 3,4,5],
+                className: 'mdl-data-table__cell--non-numeric'
+            }
+        ],
     columns: [
         { data: 'ORDEM', title:'Ordem' },
         { data: 'PNS', title:'PNS'  },
