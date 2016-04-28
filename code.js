@@ -82,11 +82,11 @@ $(document).ready(function() {
                 
                 if (useSpeciality)
                 {
-                     snip2=snip2+'<li class="collection-item"><b>'+list[j].INSTITUIÇÃO+"</b> "+list[j].ORDEM+"("+list[j].PNS+")"+'</li>';
+                     snip2=snip2+'<li class="collection-item">'+list[j].INSTITUIÇÃO+" <b>"+list[j].ORDEM+"</b> ("+list[j].PNS+")"+'</li>';
                 }
                 else
                 {
-                     snip2=snip2+'<li class="collection-item"><b>'+list[j].ESPECIALIDADE+"</b> "+list[j].ORDEM+"("+list[j].PNS+")"+'</li>';
+                     snip2=snip2+'<li class="collection-item"><b>'+list[j].ESPECIALIDADE+" <b>"+list[j].ORDEM+"</b> ("+list[j].PNS+")"+'</li>';
                 }
                
             }
