@@ -24,15 +24,18 @@ $(document).ready(function() {
                 targets: [ 3,4,5],
                 className: 'mdl-data-table__cell--non-numeric'
             },
-             { width: '20%', targets: 0 }
+             { width: '10%', targets: 0,1,2 },
+             { width: '20%', targets: 3 },
+             { width: '30%', targets: 4 },
+             { width: '20%', targets: 5 }
         ],
     columns: [
         { data: 'ORDEM', title:'Ordem' },
         { data: 'PNS', title:'PNS'  },
         { data: 'NOTA', title:'Nota'  },
-        { data: 'ESPECIALIDADE', title:'Especialidade',className: 'mdl-data-table__cell--non-numeric'  },
-        { data: 'INSTITUIÇÃO', title:'Instituição',className: 'mdl-data-table__cell--non-numeric'  },
-        { data: 'ARS', title:'ARS',className: 'mdl-data-table__cell--non-numeric'  }
+        { data: 'ESPECIALIDADE', title:'Especialidade'},
+        { data: 'INSTITUIÇÃO', title:'Instituição' },
+        { data: 'ARS', title:'ARS'}
     ]
 } );
     });
