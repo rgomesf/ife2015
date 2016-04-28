@@ -25,8 +25,9 @@ $(document).ready(function() {
         {
             noty({type: 'error',layout: 'top',text: 'O número introduzido não é inválido. Experimenta por exemplo: 403'});
         }
-        
-        var resultset=[];
+        else
+        {
+           var resultset=[];
        for (i = 0; i < actual_JSON.length; i++) {
             var candidate=actual_JSON[i];
             
@@ -36,8 +37,11 @@ $(document).ready(function() {
             }
         }
         
-        var n = noty({type: 'alert',layout: 'top',text: 'Resultados gerados com sucesso'});
-        console.log(resultset);
+        var n = noty({type: 'sucess',layout: 'top',text: 'Resultados gerados com sucesso'});
+        console.log(resultset); 
+        }
+        
+        
         
         
     });
