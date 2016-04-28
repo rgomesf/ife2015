@@ -24,7 +24,7 @@ $(document).ready(function() {
                 targets: [ 3,4,5],
                 className: 'mdl-data-table__cell--non-numeric'
             },
-             { width: '10%', targets: 0,1,2 },
+             { width: '10%', targets: [0,1,2] },
              { width: '20%', targets: 3 },
              { width: '30%', targets: 4 },
              { width: '20%', targets: 5 }
