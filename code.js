@@ -17,6 +17,8 @@ $(document).ready(function() {
     loadJSON('2015.json',function(response) {
     var actual_JSON = JSON.parse(response);
     
+    mixpanel.identify("generic user");
+    
     $('.generate').on("click",function()
     {
         mixpanel.track("Click on 'Ver' button");
