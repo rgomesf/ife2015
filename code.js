@@ -24,6 +24,7 @@ $(document).ready(function() {
         
         if (!(numberSelected>0))
         {
+            mixpanel.track("Invalid order number");
             Materialize.toast('O número introduzido não é inválido.', 4000)
         }
         else
