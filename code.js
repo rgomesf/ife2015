@@ -19,6 +19,7 @@ $(document).ready(function() {
     
     $('.generate').on("click",function()
     {
+        mixpanel.track("Click on 'Ver' button");
         var numberSelected=Number($('.order').val());
         
         if (!(numberSelected>0))
@@ -36,8 +37,12 @@ $(document).ready(function() {
         if ($('#institution').is(':checked')) {
             useSpeciality=false;
             icon="airline_seat_recline_normal";
+            mixpanel.track("Do sort by 'Institution'");
         }
-           
+        else
+        {
+            mixpanel.track("Do sort by 'Speciality'");
+        }
            
        for (i = 0; i < actual_JSON.length; i++) {
             var candidate=actual_JSON[i];
@@ -62,9 +67,6 @@ $(document).ready(function() {
                 }
                 resultset.push(candidate);
             }
-            
-            
-            
         }
         
         var keys = Object.keys(resultsMap),i, len = keys.length;
